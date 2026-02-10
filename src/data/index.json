@@ -1,0 +1,142 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "These are my front end skills"
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "These are my back end skills"
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Machine Learning Frameworks",
+      "description": "These are my machine learning frameworks skills"
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "MLops",
+      "description": "These are my MLops skills"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.png",
+      "title": "Ahuse",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/chatbot.png",
+      "title": "App Dashboard",
+      "description": "LLM langChain RAG based chatbot ",
+      "link": "https://github.com/Girdhar97/Langchain_RAG_PDF_QA_ChatBot1"
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Easy Rentn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ],
+ "education": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "degree": "Master of Science in Computer Science",
+      "institution": "Woolf University",
+      "duration": "2023 - 2025",
+      "location": "England",
+      "description": "Specializing in machine learning, artificial intelligence, and computer vision with a focus on practical applications.",
+      "grade": "First Class Distinction"
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "degree": "Bachelor of Technology in Civil Engineering",
+      "institution": "Odisha University of Technology and Research (OUTER)",
+      "duration": "2017 - 2021",
+      "location": "Bhubaneswar, India",
+      "description": "Conducted research on Concrete Strength Prediction Using Machine Learning, developing predictive models and analyzing construction data.",
+      "grade": "First Class Distinction"
+    }
+  ],
+  
+  "workExperience": [
+    {
+      "id": "1",
+      "src": "./img/feather-pen-1.png",
+      "title": "Multimodal LLM Developer (Freelance)",
+      "company": "Upwork",
+      "duration": "2024",
+      "description": "Developed a sophisticated multimodal LLM system capable of processing text, image, and audio inputs. Integrated CLIP for image embeddings, Whisper for audio processing, and fine-tuned Phi model using QLoRA.",
+      "achievements": [
+        "Built end-to-end multimodal pipeline combining CLIP, Whisper, and LLM",
+        "Implemented efficient image embedding preprocessing system",
+        "Developed custom projection layers for CLIP and Whisper outputs",
+        "Created ChatGPT-like interface supporting multiple input modalities"
+      ]
+    },
+    {
+      "id": "2",
+      "src": "./img/product-chain-1.png",
+      "title": "Research Collaborator",
+      "company": "Omdena",
+      "duration": "2023 - 2024",
+      "description": "Developed collaborative open-source solutions for German grocery e-commerce. Implemented Word2Vec model with 40% improvement over Bag of Words. Enhanced recommendation search results by 30%.",
+      "achievements": [
+        "Built AI solutions for real-world problems",
+        "Improved search accuracy by 40% using Word2Vec",
+        "Optimized recommendation system performance"
+      ]
+    },
+    {
+      "id": "3",
+      "src": "./img/tag-1.png",
+      "title": "Data Scientist Intern",
+      "company": "National Informatics Centre",
+      "duration": "2022 - 2023",
+      "description": "Worked on data analysis and machine learning projects for government applications. Developed predictive models and data visualization dashboards.",
+      "achievements": [
+        "Built ML models for government data analysis",
+        "Created interactive data visualization dashboards",
+        "Improved data processing efficiency by 35%"
+      ]
+    }
+  ]
+}
