@@ -6,18 +6,29 @@ export default function AboutMe() {
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <p className="section--title">About</p>
           <h1 className="skills-section--heading">About Me</h1>
+
           <p className="hero--section-description">
-            I am an AI Engineer with 2+ years of experience in developing and
-            deploying AI-powered applications. I specialize in building
-            end-to-end machine learning solutions, from data preprocessing to
-            model deployment.
+            I started in Mechanical and Automotive Engineering, fascinated by how complex
+            systems behave, and soon realised what really excited me were the data and algorithms
+            that make those systems intelligent. That curiosity pulled me into Artificial
+            Intelligence and eventually brought me to Germany.
           </p>
+
           <p className="hero--section-description">
-            My expertise includes natural language processing, computer vision,
-            and deep learning. I am proficient in Python, TensorFlow, PyTorch,
-            and other AI frameworks. I have a strong background in mathematics.
+            I learned German at the Goethe-Institut in India because I knew I wanted to
+            study and work in Europe's tech ecosystem. At TU Kaiserslautern I specialised
+            in AI during my MSc in Vehicle Technology, and later worked at FZI Karlsruhe
+            and Continental Tires on EV charging forecasting, industrial anomaly detection,
+            and LLM-powered applications.
+          </p>
+
+          <p className="hero--section-description">
+            I believe AI is most valuable when it runs as reliable infrastructure, not just
+            as a demo. That's why I focus on end-to-end ML and GenAI systems: turning raw
+            data into robust services with Python, PyTorch/TensorFlow, LangChain/LangGraph,
+            Docker, FastAPI, and Kubernetes on AWS/GCP, helping teams move from idea and
+            prototype to production-ready systems.
           </p>
         </div>
       </div>
