@@ -17,7 +17,7 @@ export default function Education() {
               </div>
               <div className="education--info">
                 <h3 className="education--degree">
-                  🎓 {item.degree} 
+                   {item.degree} 
                 </h3>
                 <h4 className="education--institution">{item.institution}</h4>
                 <p className="education--duration">
@@ -25,14 +25,29 @@ export default function Education() {
                 </p>
               </div>
             </div>
-            <p className="education--description">{item.description}</p>
-            
-            {/* Optional: Grade/CGPA */}
-            {item.grade && (
-              <p className="education--grade">✅ {item.grade}</p> 
-            )}
-          </div>
-        ))}
+              {item.description && (
+                <p className="education--description">{item.description}</p>
+              )}
+              {item.thesis && (
+                <p className="education--thesis">
+                  <strong>Thesis:</strong> {item.thesis}
+                </p>
+              )}
+              {item.courses && Array.isArray(item.courses) && (
+                <ul className="education--courses">
+                  {item.courses.map((course) => (
+                    <li key={course}>
+                      <strong>{course}</strong>
+                    </li>
+                  ))}
+                </ul>
+              )}
+
+              {item.grade && (
+                <p className="education--grade">🎓 {item.grade}</p>
+              )}
+            </div>
+          ))}
       </div>
     </section>
   );
