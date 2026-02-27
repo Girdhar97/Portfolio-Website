@@ -28,10 +28,10 @@ export default function WorkExperience() {
                 <div className="experience--title--wrapper">
                   <h3 className="experience--title">{item.title}</h3>
                   <p className="experience--company">{item.company}</p>
-                  <p className="experience--duration">{item.duration}</p>
+                  <p className="experience--duration">📅 {item.duration}</p>
                 </div>
               </div>
-              <p className="experience--description">{item.description}</p>
+              <p className="experience--description"><strong>Project:</strong> {item.description}</p>
               
               {/* Key Achievements */}
               {item.achievements && item.achievements.length > 0 && (
@@ -42,6 +42,9 @@ export default function WorkExperience() {
                       <li key={idx}>{achievement}</li>
                     ))}
                   </ul>
+                  {item.grade && (
+                    <p className="education--grade">🎓 {item.grade}</p>
+                  )}
                 </div>
               )}
             </div>
