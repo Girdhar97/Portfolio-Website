@@ -2,50 +2,102 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "These are my front end skills"
+      "src": "./img/programming.png",
+      "title": "Programming Languages",
+      "description": "Python, C++, SQL"
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "These are my back end skills"
+      "src": "./img/ml.png",
+      "title": "Machine Learning & AI",
+      "description": "PyTorch, TensorFlow, Keras, Scikit-Learn, NumPy, Pandas, Matplotlib"
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "Machine Learning Frameworks",
-      "description": "These are my machine learning frameworks skills"
+      "src": "./img/llm.png",
+      "title": "LLMs & Generative AI",
+      "description": "Large Language Models (LLMs), LangChain, LangGraph, Hugging Face, Llama 3, GPT‑4, Groq API, RAG, prompt engineering, embeddings, vector DBs (FAISS, AstraDB)."
     },
     {
       "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "MLops",
-      "description": "These are my MLops skills"
+      "src": "./img/mlops.png",
+      "title": "MLOps & DevOps",
+      "description": "Docker, Kubernetes, MLflow, GitHub Actions, CI/CD pipelines, Jenkins, model deployment, model serving, monitoring, model registry, experiment tracking, A/B testing."
+    },
+    {
+      "id": "5",
+      "src": "./img/backend.png",
+      "title": "Backend & APIs",
+      "description": "FastAPI, Flask, REST APIs, microservices architecture, Celery, WebSockets"
+    },
+    {
+      "id": "6",
+      "src": "./img/frontend.png",
+      "title": "Frontend",
+      "description": "React.js, Streamlit, HTML/CSS"
+    },
+    {
+      "id": "7",
+      "src": "./img/database.png",
+      "title": "Databases & Data Engineering",
+      "description": "PostgreSQL, MongoDB, AstraDB, ETL pipelines, data preprocessing, data transformation, schema validation."
+    },
+    {
+      "id": "8",
+      "src": "./img/cloud.png",
+      "title": "Cloud & Infrastructure",
+      "description": "AWS (Lambda, EC2, S3), GCP (GKE, Cloud Run), HPC platforms, distributed training, GPU clusters"
+    },
+    {
+      "id": "9",
+      "src": "./img/monitoring.png",
+      "title": "Monitoring & Observability",
+      "description": "Prometheus, Grafana, structured logging, latency optimization, model drift monitoring, system performance metrics."
     }
   ],
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/flipkart-chatbot.png",
+      "title": "Flipkart-Style Product Recommender Chatbot",
+      "bullets": [
+      "Stateful e-commerce conversational AI with using RAG and semantic search.",
+      "End-to-end data pipeline: CSV ingestion, HuggingFace BGE embeddings and AstraDB vector store with metadata filtering.",
+      "Docker multi-stage builds,  microservices on GCP Kubernetes Engine and Prometheus/Grafana monitoring."
+    ],
+      "link": "https://github.com/Girdhar97/FlipkartChatbot"
     },
     {
       "id": "2",
-      "src": "./img/chatbot.png",
-      "title": "App Dashboard",
-      "description": "LLM langChain RAG based chatbot ",
-      "link": "https://github.com/Girdhar97/Langchain_RAG_PDF_QA_ChatBot1"
+      "src": "./img/agentic-langgraph.png",
+      "title": "Stateful Agentic AI System with LangGraph & Llama 3",
+      "bullets": [
+      "Multi-agent LLM system via LangGraph checkpointing and stateful orchestration.",
+      "Three specialized agents: conversational chatbot, tool-augmented coding assistant, and AI news aggregation DAG.",
+      "Llama 3 and Groq API for fast inference"
+    ],
+      "link": "https://github.com/Girdhar97/AgenticChatbot"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/malicious-url-mlops.png",
+      "title": "Network Security - Malicious URL Detection MLOps Pipeline",
+      "bullets": [
+      "End-to-end ETL workflow ML pipeline for malicious URL classification",
+      "MLflow on DagsHub for experiment tracking, and versioned artifacts on AWS S3."
+    ],
+      "link": "https://github.com/Girdhar97/machinelearningproject/tree/main/NetworkSecurityMLProject"
+    },
+    {
+      "id": "4",
+      "src": "./img/thyrocheck-xai.png",
+      "title": "ThyroCheck AI - Thyroid Cancer Detection with Explainable AI",
+      "bullets": [
+      "FibonacciNet CNN in TensorFlow/Keras for thyroid nodule image classification",
+      "Grad-CAM based explainable AI ",
+      "FastAPI backend with React & Streamlit frontends for automatic report generation"
+    ],
+      "link": "https://github.com/Girdhar97/ComputerVisionProjects/tree/main/ResearchBasedCancerDetectionXAI"
     }
   ],
   "testimonial": [
@@ -74,69 +126,90 @@
       "author_designation": "McDonald's"
     }
   ],
- "education": [
-    {
-      "id": "1",
-      "src": "./img/product-chain-1.png",
-      "degree": "Master of Science in Computer Science",
-      "institution": "Woolf University",
-      "duration": "2023 - 2025",
-      "location": "England",
-      "description": "Specializing in machine learning, artificial intelligence, and computer vision with a focus on practical applications.",
-      "grade": "First Class Distinction"
-    },
-    {
-      "id": "2",
-      "src": "./img/tag-1.png",
-      "degree": "Bachelor of Technology in Civil Engineering",
-      "institution": "Odisha University of Technology and Research (OUTER)",
-      "duration": "2017 - 2021",
-      "location": "Bhubaneswar, India",
-      "description": "Conducted research on Concrete Strength Prediction Using Machine Learning, developing predictive models and analyzing construction data.",
-      "grade": "First Class Distinction"
-    }
-  ],
-  
-  "workExperience": [
-    {
-      "id": "1",
-      "src": "./img/feather-pen-1.png",
-      "title": "Multimodal LLM Developer (Freelance)",
-      "company": "Upwork",
-      "duration": "2024",
-      "description": "Developed a sophisticated multimodal LLM system capable of processing text, image, and audio inputs. Integrated CLIP for image embeddings, Whisper for audio processing, and fine-tuned Phi model using QLoRA.",
-      "achievements": [
-        "Built end-to-end multimodal pipeline combining CLIP, Whisper, and LLM",
-        "Implemented efficient image embedding preprocessing system",
-        "Developed custom projection layers for CLIP and Whisper outputs",
-        "Created ChatGPT-like interface supporting multiple input modalities"
-      ]
-    },
-    {
-      "id": "2",
-      "src": "./img/product-chain-1.png",
-      "title": "Research Collaborator",
-      "company": "Omdena",
-      "duration": "2023 - 2024",
-      "description": "Developed collaborative open-source solutions for German grocery e-commerce. Implemented Word2Vec model with 40% improvement over Bag of Words. Enhanced recommendation search results by 30%.",
-      "achievements": [
-        "Built AI solutions for real-world problems",
-        "Improved search accuracy by 40% using Word2Vec",
-        "Optimized recommendation system performance"
-      ]
-    },
-    {
-      "id": "3",
-      "src": "./img/tag-1.png",
-      "title": "Data Scientist Intern",
-      "company": "National Informatics Centre",
-      "duration": "2022 - 2023",
-      "description": "Worked on data analysis and machine learning projects for government applications. Developed predictive models and data visualization dashboards.",
-      "achievements": [
-        "Built ML models for government data analysis",
-        "Created interactive data visualization dashboards",
-        "Improved data processing efficiency by 35%"
-      ]
-    }
-  ]
+"education": [
+  {
+    "id": "1",
+    "src": "./img/rptu.png",
+    "degree": "MSc. Vehicle Technology  (AI Specialization)",
+    "institution": "Technical University of Kaiserslautern-Landau (RPTU)",
+    "duration": "2021 - 2025",
+    "location": "Kaiserslautern, Germany",
+    "thesis": "Optimizing Small Object Detection for Autonomous Vehicles in Dense Natural Environments",
+    "courses": [
+      "Machine Learning",
+      "Applications of Machine Learning & Data Science",
+      "Enterprise Data Science",
+      "Introduction to Autonomous Systems",
+      "Embedded Intelligence",
+      "Foundations of Software Engineering",
+      "Automotive Engineering"
+    ],
+    "grade": "Final grade: 1.9"
+  },
+  {
+    "id": "2",
+    "src": "./img/goethe.png",
+    "degree": "German Language (Goethe-Zertifikat B2)",
+    "institution": "Goethe-Institut",
+    "duration": "2020 - 2021",
+    "location": "Delhi, India",
+    "description": "Completed all CEFR levels from A1 to B2 to prepare for studying and working in Germany; now use German daily in professional contexts.",
+    "grade": "Level: B2"
+  },
+      {
+    "id": "3",
+    "src": "./img/manipal.png",
+    "degree": "B.Tech in Mechanical Engineering",
+    "institution": "Manipal University Jaipur",
+    "duration": "2015 - 2019",
+    "location": "Jaipur, India",
+    "description": "Built a strong foundation in mathematics, dynamics and control, which later supported my transition into AI and data-driven engineering.",
+    "grade": "Final grade: 2.5"
+  }
+], 
+"workExperience": [
+  {
+    "id": "1",
+    "src": "./img/fzi.png",
+    "title": "AI Research Assistant",
+    "company": "Forschungszentrum Informatik (FZI), Karlsruhe, Germany",
+    "duration": "05.2024 - 10.2025",
+    "description": "EV charging machine learning forecasting service for energy grid management.",
+    "achievements": [
+      "Architected and deployed a production-level time-series forecasting service with full ETL, feature engineering and model pipeline.",
+      "Built a Dockerized REST API with Celery and Redis for distributed inference, enabling low-latency predictions at scale.",
+      "Implemented model monitoring with Prometheus & Grafana, tracking latency, system metrics and model drift in production.",
+      "Improved forecasting accuracy to ~90%, reduced data noise by 34% and increased model reliability by 18%."
+    ]
+  },
+  {
+    "id": "2",
+    "src": "./img/rrl.png",
+    "title": "Master Thesis Student",
+    "company": "Robotic Research Lab, Kaiserslautern, Germany",
+    "duration": "11.2024 - 05.2025",
+    "description": "Optimizing small object detection for autonomous vehicles in dense natural environments.",
+    "grade": "Thesis grade: 1.3",
+    "achievements": [
+      "Designed a modular PyTorch-based computer vision framework with 8 phase-wise model configurations.",
+      "Improved real-time object detection mAP by 2.6 points via YOLOv5/YOLOv8 improvements and hyperparameter tuning.",
+      "Leveraged HPC Linux clusters for distributed training and large-scale experiments.",
+      "Benchmarked models for real-time deployment, analysing latency and throughput trade-offs."
+    ]
+  },
+  {
+    "id": "3",
+    "src": "./img/continental.png",
+    "title": "Data Science Intern",
+    "company": "Continental Tires Deutschland GmbH, Hannover, Germany",
+    "duration": "08.2023 - 01.2024",
+    "description": "Data-driven quality control in industrial tire apex manufacturing.",
+    "achievements": [
+      "Developed and deployed regression models for anomaly detection on time-series sensor data in tire manufacturing.",
+      "Engineered features that improved defect identification by 25% and reduced false positives.",
+      "Built a Flask + HTML/CSS based defect detection tool for process and quality control teams.",
+      "Collaborated with domain experts to translate manufacturing requirements into ML features and KPIs."
+    ]
+  }
+]
 }
