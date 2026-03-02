@@ -30,7 +30,7 @@ export default function HeroSection() {
           </ul>
         </div>
         <a
-        href="/Girdhar_Saini_Resume.pdf"
+        href="./img/Girdhar_Saini_Resume.pdf"
         className="btn btn-primary"
         target="_blank"
         rel="noreferrer"
